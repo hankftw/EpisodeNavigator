@@ -1,7 +1,7 @@
 // background.js
 
 chrome.commands.onCommand.addListener(function(command) {
-  if (command == "navigate-forward" || command == "navigate-backward") {
+  if (command == "navigate-forward") {
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
       if (!tabs || tabs.length === 0) {       
         return;
