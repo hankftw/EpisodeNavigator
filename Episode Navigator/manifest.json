@@ -1,0 +1,22 @@
+
+{
+  "manifest_version": 3,
+  "name": "Episode Navigator",
+  "version": "1.0",
+  "action": { },
+  "description": "Navigate to the next episode",
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "navigate-forward": {
+      "description": "Navigate to the next episode",
+      "global": true,
+      "suggested_key": {
+        "default": "Ctrl+Right",
+        "mac": "Command+Right"
+      }
+    }
+  }
+}
