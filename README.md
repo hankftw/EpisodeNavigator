@@ -1,3 +1,6 @@
+I got tired of some websites letting you navigate with arrow keys, some not, so I made this basic chrome extension to add going forwards. Worked on every website I've tried so far but there may be some outliers.
+I'm not too familiar with Chrome and I had some difficulty making it go backwards too so for now it only goes in one direction.
+
 Add to chrome (chrome://extensions)
 Set up shortcut (chrome://extensions/shortcuts)
 
